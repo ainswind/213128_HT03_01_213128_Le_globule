@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* background */
+body{
+    padding-left: 75px;
+    background-image: linear-gradient(to bottom, #000,#ededed);
+}
+/* conteneur principal */
+#wrapper {
+    background-color: #ededed;
+    box-shadow: 10px 10px 10px #888;
+    width: 1180px;
+    border-radius: 12px 12px 12px 12px;
+    
+    }
+                                                             /* debut header */
+/* nom du site */
+h1{
+    text-align: center;
+    color: #139c19;
+    text-shadow: 3px 3px 3px #000;
+    font-size: 80px;
+}
+
+/************************************************************** menu ************************************************************************/
+.main-menu .menu-item {
+    padding-left: 100px;
+    background-image: linear-gradient(to bottom, #444, #111);
+    text-shadow: 2px 3px 2px #9c9c9c;
+    border-radius: 50px 50px 50px 50px;
+    height: 50px;
+    width: 1050px;
+    margin: 30px 20px 50px 10px;
+    padding-left: 20px;
+    }
+
+    
+li{
+    display: inline;
+    list-style: none;
+}
+.main-menu li{
+    line-height: 50px;
+    padding-right: 25px;
+    display: table-cell;
+}
+
+.menu-item li :hover{
+    color: #fafafa;
+    text-shadow: 2px 3px 2px #000;
+    background-image: linear-gradient(to bottom,#19b123, #139c19);
+}
+ 
+.main-menu li a {
+    color: #f2f2f2;
+    text-decoration: none;
+    display: block;
+}
+
+.main-menu, .sous-menu{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.sous-menu{
+    position: absolute;
+    display: none;
+    background-image: linear-gradient(to bottom, #444, #111);
+    border: 7px solid #222 ;
+}
+
+.sous-menu li{
+    display: block;
+    color: black;
+}
+li:hover .sous-menu{
+    display: block;
+}
+
+.sous-menu figure{
+    float: right;
+    margin-left: 300px;
+    
+}
+.sous-sous-menu li:hover {
+    background-image: linear-gradient(to bottom,#19b123, #139c19);
+    color: #ededed;
+    text-shadow:2px 3px 2px black;
+}
+
+/************************************************** fin menu ********************************************************************************/
+                                                    /* fin header */
+
+                                                    /* debut main */
+h2,h3{
+    color: #139c19;
+    
+}
+/*************************************************** debut colonne droite *********************************************************************/
+.colonne-droite{
+    max-width: 30%;
+    box-shadow: -10px 10px 20px #ccc;
+    float: right;
+    margin:0px 40px 0px 40px;
+    font-size: 13px;
+    padding :260px 0px 20px 0px;
+}
+ 
+h3{
+    font-size: 20px;
+    margin: 10px 0px 10px 20px ;
+
+}
+
+.colonne-droite section{
+    margin-bottom: 20px;
+}
+
+.colonne-droite p{
+    margin-left: 20px;
+}
+
+/************************************************************************* fin colone droite  ************************************************/
+
+/************************************************************************* colonne gauche ****************************************************/
+.colonne-gauche {
+    max-width: 70%;
+    margin-top: 40px;
+}
+h2{
+    border-left: 25px solid #139c19;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin: 30px 0px 30px 40px;
+}
+.colonne-gauche p {
+    
+    margin:15px 0px 0px 40px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+#texte-gris{
+    color: #777;
+    font-style: italic;
+}
+#globule {
+    float: left;
+    margin: 30px 40px 0px 0px;
+}
+figcaption{
+    text-align: right;
+    color: #777;
+    font-style: italic;
+    font-size: 12px;
+}
+/********************************************************************* fin colonne gauche *****************************************************/
+                                    
+                                                                    /* debut footer */
+footer{
+    margin-top: 20px;
+    padding:25px 0px 25px 0px;
+    border-top: 1px solid #139c19;
+    
+}
+
+footer ul {
+    margin-left: 250px; 
+}
+footer li{
+    
+    border: 5px solid #139c19;
+    background-image: linear-gradient(to bottom, #19b123, #139c19 );
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+   
+}
+footer a{
+    color: #e9f6e9;
+    text-decoration: none;
+}
+
+footer li :hover{
+    background-color: rgba(21,165,29,0.5);
+    color: #000;
+}
+ 
+                                                                    /* fin footer */
+
